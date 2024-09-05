@@ -1,7 +1,7 @@
 #3) Análise de Faturamento Diário em Python (usando JSON):
 import json
 
-# Carregando dados do faturamento diário de um arquivo JSON (ajuste o caminho do arquivo)
+# Carregando dados do faturamento diário de um arquivo JSON
 with open("faturamento_diario.json", "r") as f:
     faturamento_diario = json.load(f)
 
