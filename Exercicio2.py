@@ -14,7 +14,7 @@ def verifica_fibonacci(numero):
     a, b = b, a + b
   return b == numero
 
-# Número a ser verificado (pode ser entrada do usuário)
+# Número a ser verificado
 numero = 21
 
 if verifica_fibonacci(numero):

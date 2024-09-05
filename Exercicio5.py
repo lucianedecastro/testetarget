@@ -1,4 +1,4 @@
-#5) Invertendo Caracteres de uma String em Python (sem usar funções prontas):
+#5) Invertendo Caracteres de uma String em Python
 def inverter_string(texto):
   """
   Inverte os caracteres de uma string.
@@ -14,7 +14,7 @@ def inverter_string(texto):
     texto_invertido += texto[i]
   return texto_invertido
 
-# String a ser invertida (pode ser entrada do usuário)
+# String a ser invertida
 texto = "Exemplo de string"
 
 texto_invertido = inverter_string(texto)
